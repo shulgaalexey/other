@@ -1,0 +1,12 @@
+In your linux terminal, not in the tizen shell, please try the following command to see the contents of an rpm:
+$ rpm2cpio <filename> | cpio -ivd
+Then, the rpm file will be unpacked and you can see the target location of all files in the rpm.
+
+
+
+
+But, if the rpm is a package of a UI app,
+please try "pkgcmd" command from the tizen shell.
+I can't remember the exact command, but I think the usage of that command looks like:
+pkgcmd -i -t rpm -p <rpm file path>
+This is the command line tool for tizen package manager.

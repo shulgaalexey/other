@@ -1,0 +1,17 @@
+
+
+
+sdb -d push *.rpm /opt/usr/media/
+
+-----------------------
+
+sdb shell
+
+-----------------------
+
+su
+mount -o remount,rw /
+cd /opt/usr/media
+rpm -Uvh --nodeps --force *.rpm
+sync
+reboot

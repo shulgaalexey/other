@@ -1,0 +1,9 @@
+git clean -df
+git checkout -- .
+
+
+or
+
+
+git reset --hard HEAD
+git clean -f

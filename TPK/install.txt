@@ -1,0 +1,1 @@
+/usr/bin/pkgcmd -q -i -t tpk -p <tpk file name>

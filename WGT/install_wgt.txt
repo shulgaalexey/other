@@ -1,0 +1,4 @@
+1. Using IDE, Build package -> making *.wgt
+2. sdb push *.wgt /tmp
+3. su - owner
+4. pkgcmd -u -t wgt -n *.wgt

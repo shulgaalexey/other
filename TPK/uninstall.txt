@@ -1,0 +1,1 @@
+pkgcmd -u -n org.example.d2d_test
