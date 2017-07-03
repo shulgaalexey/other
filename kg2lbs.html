@@ -1,0 +1,29 @@
+<html>
+<header><title>Kg to Lbs</title></header>
+<script>
+function kg2lbs(kg) {
+	if (parseInt(kg) != NaN)
+		return 2.20462 * parseInt(kg);
+	else
+		return 0;
+}
+
+function onCalc() {
+	document.getElementById("lbs").value = kg2lbs(document.getElementById("kg").value);
+}
+
+function onClear() {
+	document.getElementById("kg").value = "";
+	document.getElementById("lbs").value = "";
+}
+
+</script>
+<body style="background-color:powderblue;">
+kg <input type="text" name="kg" id="kg" onkeyup="onCalc()" style="font-size:200%;text-align:center;">
+<br><br>
+lbs <input type="text" name="lbs" id="lbs" disabled style="font-size:200%;text-align:center;">
+<!--<button type="button" id="btnCalc" onclick="onCalcBtn()">Calc</button>-->
+<br><br><br>
+<button type="button" id="btnClear" onclick="onClear()" style="font-size:200%;">Clear</button>
+</body>
+</html>
