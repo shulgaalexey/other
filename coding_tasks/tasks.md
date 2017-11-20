@@ -1,7 +1,7 @@
 Some common algorithm problems asked in Technical Interviews :
 -	Save all leaf nodes of a Binary tree in a Doubly Linked List by using Right node as Next node and Left Node as Previous Node. (tree_to_list.cpp)
 -	Given an array,find the maximum j – i such that arr[j] > arr[i] (calc_max_dist.cpp)
--	Remove Alternate Duplicate characters from a char array you have to do it in Place.Like keeping only the odd occurences of each character.
+-	Remove Alternate Duplicate characters from a char array you have to do it in Place.Like keeping only the odd occurences of each character. (remove_dubl.cpp)
 1.	Example: Input: “you got beautiful eyes”
 2.	Output: ”you gtbeaiful es”
 3.	Allowed Time Complexity was O(n) and Space Complexity was O(1)
