@@ -5,9 +5,9 @@ Some common algorithm problems asked in Technical Interviews :
 1.	Example: Input: “you got beautiful eyes”
 2.	Output: ”you gtbeaiful es”
 3.	Allowed Time Complexity was O(n) and Space Complexity was O(1)
--	In a file there are 1 million words . Find 10 most frequent words in that file.
--	Find all nodes at k-distance from a given node in a binary tree
--	Clone a linked list with next and random pointer
+-	In a file there are 1 million words . Find 10 most frequent words in that file. (get_10_most_pop_words.cpp)
+-	Find all nodes at k-distance from a given node in a binary tree (k_dist_nodes.cpp)
+-	Clone a linked list with next and random pointer (clone_list_with_rand_links.cpp)
 -	Serialise and Deserialise a linked list with next and random pointer.
 -	Construct a binary tree from given inorder and preorder traversals.
 -	Return a tree such that each internal node stores sum of all its child nodes. Each leaf node stores zero.
