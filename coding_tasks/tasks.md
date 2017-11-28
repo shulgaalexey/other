@@ -8,7 +8,7 @@ Some common algorithm problems asked in Technical Interviews :
 -	In a file there are 1 million words . Find 10 most frequent words in that file. (get_10_most_pop_words.cpp)
 -	Find all nodes at k-distance from a given node in a binary tree (k_dist_nodes.cpp)
 -	Clone a linked list with next and random pointer (clone_list_with_rand_links.cpp)
--	Serialise and Deserialise a linked list with next and random pointer.
+-	Serialise and Deserialise a linked list with next and random pointer.(serialize_list_with_random_link.cpp)
 -	Construct a binary tree from given inorder and preorder traversals.
 -	Return a tree such that each internal node stores sum of all its child nodes. Each leaf node stores zero.
 -	How will you implement linked list with 1 million nodes? How will you access 999999 th node? Give some optimal design strategy and implementation.
