@@ -4,6 +4,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <functional>
 
 // Basic lambda features and syntax
 void lambda_demo1() {
@@ -49,7 +50,7 @@ void lambda_demo3() {
 	std::vector<int> arr = {3, 1, 5, 4, 2};
 	std::sort(begin(arr), end(arr),
 			[](const int &a, const int &b) -> bool {
-				return a > b;
+				return a < b;
 			});
 	std::for_each(begin(arr), end(arr),
 			[](int x) {
@@ -57,11 +58,34 @@ void lambda_demo3() {
 			});
 }
 
+// Lambdas and std::function
+void perform_operation(std::function<void ()> f) {
+	f();
+}
+
+void lambda_demo4() {
+
+	int x = 100;
+
+	perform_operation([&]() {
+			x++;
+			});
+
+	auto func = [&]() {
+		x += 10;
+	};
+
+	perform_operation(func);
+
+	std::cout << x << std::endl;
+}
+
 int main(void) {
 
 	lambda_demo1();
 	lambda_demo2();
 	lambda_demo3();
+	lambda_demo4();
 
 	return 0;
 }
