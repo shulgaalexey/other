@@ -53,6 +53,13 @@ mono hello.exe
 ```
 
 
+Debuging
+--------
+
+```
+https://marketplace.visualstudio.com/items?itemName=ms-vscode.mono-debug
+```
+
 Reference
 ---------
 
