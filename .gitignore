@@ -1,1 +1,5 @@
 ~*.docx
+*/Debug/*
+*/Release/*
+*/obj/*
+*/bin/*

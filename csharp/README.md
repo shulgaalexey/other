@@ -1,6 +1,14 @@
 C# practice
 ===========
 
+Installing dotnet
+-----------------
+
+https://www.microsoft.com/net/learn/get-started/linuxubuntu
+
+https://docs.microsoft.com/en-us/dotnet/csharp/quick-starts/arrays-and-collections
+
+
 Installing Mono
 ---------------
 
