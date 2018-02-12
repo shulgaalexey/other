@@ -1,6 +1,16 @@
 C# practice
 ===========
 
+Simple instructions for dotnet
+------------------------------
+
+```
+dotnet new console -o myApp
+cd myApp
+dotnet run
+```
+
+
 Installing dotnet
 -----------------
 
