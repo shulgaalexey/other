@@ -1,10 +1,12 @@
 #ifndef __VEHICLE_H_INCLUDED__
 #define __VEHICLE_H_INCLUDED__
 
+#include "base_class.h"
+
 class Engine;
 class Transmission;
 
-class Vehicle {
+class Vehicle : public BaseClass {
 	Engine *engine;
 	Transmission *transmission;
 public:

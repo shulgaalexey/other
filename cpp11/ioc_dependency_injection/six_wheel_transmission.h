@@ -2,10 +2,16 @@
 #define __SIX_WHEEL_TRANSMISSION_H_INCLUDED__
 
 #include "transmission.h"
+#include <iostream>
 
-class SixWheelTransmission {
+class SixWheelTransmission : public Transmission {
 public:
-	virtual ~SixWheelTransmission() {};
+	SixWheelTransmission() {
+		std::cout << "ctor SixWheelTransmission\n";
+	}
+	virtual ~SixWheelTransmission() {
+		std::cout << "dtor SixWheelTransmission\n";
+	}
 	virtual int get_wheels_count() { return 6; }
 };
 

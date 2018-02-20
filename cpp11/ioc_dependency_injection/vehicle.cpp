@@ -8,10 +8,11 @@ Vehicle::Vehicle(Engine *engine, Transmission *transmission) :
 }
 
 Vehicle::~Vehicle() {
-	if (engine)
-		delete engine;
-	if (transmission)
-		delete transmission;
+	// This is managed by the IoC Container
+	//if (engine)
+	//	delete engine;
+	//if (transmission)
+	//	delete transmission;
 	engine = nullptr;
 	transmission = nullptr;
 }

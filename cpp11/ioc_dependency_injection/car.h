@@ -12,8 +12,12 @@ class Car : public Vehicle {
 	Transmission *transmission;
 public:
 	Car(Engine *engine, Transmission *transmission) :
-		Vehicle(engine, transmission) {}
+		Vehicle(engine, transmission) {
+			std::cout << "ctor Car\n";
+	}
 	virtual ~Car() {
+		std::cout << "dtor Car\n";
+	}
 	virtual void honk() const {
 		std::cout << "beep\n";
 	}

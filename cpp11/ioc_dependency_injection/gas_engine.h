@@ -6,7 +6,12 @@
 
 class GasEngine : public Engine {
 public:
-	virtual ~GasEngine() {};
+	GasEngine() {
+		std::cout << "ctor GasEngine\n";
+	}
+	virtual ~GasEngine() {
+		std::cout << "dtor GasEngine\n";
+	}
 	virtual bool start() {
 		std::cout << "GasEngine started\n";
 	}

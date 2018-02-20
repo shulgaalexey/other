@@ -1,8 +1,9 @@
 #ifndef __ENGINE_H_INCLUDED__
 #define __ENGINE_H_INCLUDED__
 
+#include "base_class.h"
 
-class Engine {
+class Engine : public BaseClass {
 public:
 	virtual ~Engine() {};
 	virtual bool start() = 0;
