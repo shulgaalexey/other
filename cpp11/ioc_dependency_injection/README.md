@@ -11,7 +11,7 @@ Features supported:
  - Garbage Collection for beans
 
 
-![Dependency Injection](https://en.wikipedia.org/wiki/File:W3sDesign_Dependency_Injection_Design_Pattern_UML.jpg "Dependency Injection)
+![Dependency Injection](https://upload.wikimedia.org/wikipedia/commons/1/10/W3sDesign_Dependency_Injection_Design_Pattern_UML.jpg "Dependency Injection)
 
 
 Build
