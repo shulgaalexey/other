@@ -10,9 +10,12 @@ Features supported:
  - Bean config file in human readable form
  - Garbage Collection for beans
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/10/W3sDesign_Dependency_Injection_Design_Pattern_UML.jpg" alt="Dependency Injection">
+
 
 ![Dependency Injection](https://upload.wikimedia.org/wikipedia/commons/1/10/W3sDesign_Dependency_Injection_Design_Pattern_UML.jpg "Dependency Injection")
+
+Pic from [wikipedia](https://en.wikipedia.org/wiki/Dependency_injection)
+
 
 
 Build
