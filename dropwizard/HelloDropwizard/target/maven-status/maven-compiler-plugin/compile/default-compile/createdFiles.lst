@@ -1,0 +1,5 @@
+com/shulga/study/resources/HelloDropwizardResource.class
+com/shulga/study/HelloDropwizardApplication.class
+com/shulga/study/health/TemplateHealthCheck.class
+com/shulga/study/api/Saying.class
+com/shulga/study/HelloDropwizardConfiguration.class

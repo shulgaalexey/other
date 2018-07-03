@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"com.shulga.study"},{"l":"com.shulga.study.api"},{"l":"com.shulga.study.health"},{"l":"com.shulga.study.resources"}]

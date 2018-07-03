@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.shulga.study","l":"HelloDropwizardApplication"},{"p":"com.shulga.study","l":"HelloDropwizardConfiguration"},{"p":"com.shulga.study.resources","l":"HelloDropwizardResource"},{"p":"com.shulga.study.api","l":"Saying"},{"p":"com.shulga.study.health","l":"TemplateHealthCheck"}]
